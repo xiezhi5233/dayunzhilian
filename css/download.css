@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+.download_maxbox{
+    min-width:320px;
+    background: url("../img/download/download_bgimg.jpg") no-repeat center;
+    background-size: cover;
+}
+.download_box{
+    min-height: 778px;
+    background:rgba(255,255,255,.8);
+}
+.download_bg{
+    position: relative;
+    max-width:1000px;
+    min-height: 778px;
+    margin: 0 auto;
+}
+.download_bg>img{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.download_top h2{
+    text-align:right;
+    width: 460px;
+    font:48px/140% 微软雅黑;
+    padding:75px 0 0 90px;
+}
+.download_top p{
+    width: 460px;
+    font:24px/140% 微软雅黑;
+    padding:10px 0 0 90px;
+
+}
+.download_bottom{
+    margin-top: 50px;
+    padding-bottom:70px;
+}
+.download_bottom>div{
+    float:left;
+}
+.download_btn{
+    padding-top:20px;
+}
+.download_btn>a{
+    display: block;
+    width: 215px;
+    height: 58px;
+    background-color: #1aaeb4;
+    text-align:center;
+    color:#fff;
+    font:22px/58px 微软雅黑;
+    margin:0 0 50px 80px;
+}
+.download_btn>a:hover{
+    background-color: #1b7f85;
+}
+.download_pc_img{
+    width: 600px;
+    float:right;
+    margin-left:60px;
+}
+.download_pc_img img{
+    display: block;
+    width: 80%;
+    margin: 0 10%;
+}
+/* TODO:窗口宽度<980px*/
+@media screen and (max-width: 980px) {
+    .download_maxbox{
+    }
+    .download_top h2{
+        width: 80%;
+        font:40px/140% 微软雅黑;
+        padding:60px 0 0 0;
+        margin: 0 10%;
+        text-align:center;
+    }
+    .download_top p{
+        width: 80%;
+        font:20px/140% 微软雅黑;
+        padding:10px 0 0 0;
+        margin: 0 10%;
+    }
+
+    .download_bg>img{
+        width: 150px;
+        top:auto;
+        bottom: 190px;
+        right: 50px;
+    }
+
+    .download_bottom>div{
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .download_btn>a{
+        display: block;
+        width: 80%;
+        height: 58px;
+        background-color: #1aaeb4;
+        text-align:center;
+        color:#fff;
+        font:22px/58px 微软雅黑;
+        margin:0 10% 50px;
+    }
+}
+
+/* TODO:窗口宽度<780px*/
+@media screen and (max-width: 780px) {
+    .download_top h2{
+        width: 80%;
+        font:34px/140% 微软雅黑;
+        padding:50px 0 0 0;
+        margin: 0 10%;
+    }
+    .download_top p{
+        width: 80%;
+        font:20px/140% 微软雅黑;
+        padding:10px 0 0 0;
+        margin: 0 10%;
+    }
+
+    .download_bg>img{
+        width: 15%;
+        top:auto;
+        bottom: 150px;
+        right: 50px;
+    }
+
+    .download_bottom>div{
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .download_btn>a{
+        display: block;
+        width: 80%;
+        height: 58px;
+        background-color: #1aaeb4;
+        text-align:center;
+        color:#fff;
+        font:22px/58px 微软雅黑;
+        margin:0 10% 50px;
+    }
+}
+

@@ -1,0 +1,63 @@
+
+.banner {
+	width: 100%;
+}
+
+.banner img {
+	width: 100%;
+	display: block;
+}
+.clear{
+	clear: both;
+}
+.about{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+/*修改*/
+.about a {
+	display: inline-block;
+	width: 33.3%;
+}
+/*修改*/
+.about a img{
+	width:100%;
+}
+.dian{
+	width: 15px;
+}
+/*ipad*/
+
+@media only screen and (max-width: 996px) {
+	.banner {
+		width: 100%;
+	}
+	/*.banner img {*/
+		/*width: 60%;*/
+		/*display: block;*/
+	/*}*/
+	
+
+}
+
+/*手机*/
+@media only screen and (max-width: 768px) {
+	.banner {
+		width: 100%;
+	}
+	.banner img {
+		width: 100%;
+		display: block;
+	}
+	.about {
+		width: 100%;
+		/*display: flex;*/
+		/*text-align: center;*/
+	}
+	.about img {
+		width: 60%;
+		/*display: block;*/
+		/*flex: 1;*/
+	}
+}

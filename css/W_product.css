@@ -1,0 +1,380 @@
+@media screen and (min-width:977px) {
+	.product_maxbox {
+		min-width: 960px;
+		min-height: 307px;
+	}
+	.product_banner {
+		height: 160px;
+		background: url("../img/product/banner_02.png") no-repeat center;
+		background-size: cover;
+	}
+	.product_banner>div {
+		min-width: 960px;
+		margin: 0 auto;
+		position: relative;
+		height: 160px;
+	}
+	.product_banner>div>h2 {
+		position: absolute;
+		top: 20px;
+		right: 110px;
+		font: 24px/44px 微软雅黑;
+	}
+	.product_box {
+		min-width: 960px;
+		margin: 0 auto;
+		box-sizing: border-box;
+		padding: 0 60px;
+	}
+	.product_box h3 a,
+	.product_nav a,
+	.product_nav span {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+	}
+	.product_box h3 i {
+		position: relative;
+		top: 3px;
+		display: inline-block;
+		width: 5px;
+		height: 18px;
+		background-color: #1aaeb4;
+	}
+	.product_nav {
+		box-sizing: border-box;
+		border: 1px solid #000;
+		padding: 5px 10px 10px;
+	}
+	.product_nav p {
+		border-bottom: 1px dashed #000;
+		font: 12px/24px 微软雅黑;
+	}
+	.product_nav p a {
+		display: inline-block;
+	}
+	.product_nav p a:hover {
+		color:#1aaeb4;
+		text-shadow:0 0 2px #1aaeb4;
+	}
+	.product_nav p:nth-of-type(2) {
+		position: relative;
+		padding-right: 60px;
+		height: 48px;
+	}
+	.product_nav p:nth-of-type(2)>span {
+		display: block;
+		height: 48px;
+		overflow: hidden;
+	}
+	.product_nav p:nth-of-type(2)>a {
+		position: absolute;
+		top: 10px;
+		right: 5px;
+		width: 43px;
+		height: 24px;
+		font: 12px/24px 微软雅黑;
+		text-align: center;
+		border: 1px solid #000;
+		cursor:pointer;
+		-webkit-user-select:none;
+
+	}
+	.product_nav p:nth-of-type(2)>a:hover {
+		text-shadow:0 0 0 #000;
+	}
+	.product_nav p:nth-of-type(2)>a:active {
+		background-color: #1aaeb4;
+		color: #fff;
+	}
+	.product_nav p a {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+		padding:0 20px;
+		cursor: pointer;
+	}
+	.product_nav p span {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+	}
+	.product_menu_none{
+		height: 500px;
+		text-align:center;
+		line-height:500px;
+		color:#ccc;
+		display: none;
+	}
+	.product_menu ul {
+		text-align: center;
+	}
+	.product_menu ul li {
+		float: left;
+		width: 248px;
+		margin: 10px 5px;
+		font: 16px/160% 微软雅黑;
+
+	}
+	.product_menu ul li img {
+		display: block;
+		border: 1px solid #ccc;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.product_menu ul li a {
+		font: 16px/160% 微软雅黑;
+		color: #000;
+	}
+}
+
+@media screen and (min-width:785px) and (max-width:976px) {
+	.product_maxbox {
+		min-width: 768px;
+		min-height: 307px;
+	}
+	.product_banner {
+		height: 160px;
+		background: url("../img/product/banner_02.png") no-repeat left center;
+		background-size: cover;
+	}
+	.product_banner>div {
+		min-width: 768px;
+		margin: 0 auto;
+		position: relative;
+		height: 160px;
+	}
+	.product_banner>div>h2 {
+		position: absolute;
+		top: 20px;
+		right: 110px;
+		font: 24px/44px 微软雅黑;
+	}
+	.product_box {
+		min-width: 768px;
+		margin: 0 auto;
+		box-sizing: border-box;
+		padding: 0 60px;
+	}
+	.product_box h3 a,
+	.product_nav a,
+	.product_nav span {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+	}
+	.product_box h3 i {
+		position: relative;
+		top: 3px;
+		display: inline-block;
+		width: 5px;
+		height: 18px;
+		background-color: #1aaeb4;
+	}
+	.product_nav {
+		box-sizing: border-box;
+		border: 1px solid #000;
+		padding: 5px 10px 10px;
+	}
+	.product_nav p {
+		border-bottom: 1px dashed #000;
+		font: 12px/24px 微软雅黑;
+	}
+	.product_nav p a {
+		display: inline-block;
+		cursor: pointer;
+
+	}
+	.product_nav p:nth-of-type(2) {
+		position: relative;
+		padding-right: 60px;
+		height: 48px;
+		overflow: hidden;
+	}
+	.product_nav p:nth-of-type(2)>span {
+		display: block;
+	}
+	.product_nav p:nth-of-type(2)>a {
+		position: absolute;
+		top: 10px;
+		right: 5px;
+		width: 43px;
+		height: 24px;
+		font: 12px/24px 微软雅黑;
+		text-align: center;
+		border: 1px solid #000;
+		cursor:pointer;
+		-webkit-user-select:none;
+	}
+	.product_nav p:nth-of-type(2)>a:hover {
+		background-color: #1aaeb4;
+		color: #fff;
+		border: 1px solid #000;
+	}
+	.product_nav p a {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+		padding: 0 10px;
+		cursor: pointer;
+
+	}
+	.product_nav p span {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+	}
+	.product_menu ul {
+		text-align: center;
+	}
+	.product_menu ul li {
+		float: left;
+		width: 23%;
+		margin: 10px 1%;
+		font: 16px/160% 微软雅黑;
+	}
+	.product_menu ul li img {
+		display: block;
+		border: 1px solid #ccc;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.product_menu ul li a {
+		font: 16px/160% 微软雅黑;
+		color: #000;
+	}
+	.product_menu_none{
+		height: 300px;
+		text-align:center;
+		line-height:300px;
+		color:#ccc;
+		display: none;
+	}
+
+}
+
+@media screen and (max-width:784px) {
+	.product_maxbox {
+		max-width: 767px;
+		min-width: 320px;
+		min-height: 307px;
+	}
+	.product_banner {
+		height: 160px;
+		background: url("../img/product/banner_02.png") no-repeat -50px center;
+		background-size: cover;
+	}
+	.product_banner>div {
+		max-width: 767px;
+		margin: 0 auto;
+		position: relative;
+		height: 160px;
+	}
+	.product_banner>div>h2 {
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		font: 24px/44px 微软雅黑;
+		text-shadow:0 0 2px #ccc;
+	}
+	.product_box {
+		max-width: 767px;
+		margin: 0 auto;
+		box-sizing: border-box;
+		padding: 0 20px;
+	}
+	.product_box h3 a,
+	.product_nav a,
+	.product_nav span {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+	}
+	.product_box h3 i {
+		position: relative;
+		top: 3px;
+		display: inline-block;
+		width: 5px;
+		height: 18px;
+		background-color: #1aaeb4;
+	}
+	.product_nav {
+		box-sizing: border-box;
+		border: 1px solid #000;
+		padding: 5px 10px 10px;
+	}
+	.product_nav p {
+		border-bottom: 1px dashed #000;
+		font: 12px/24px 微软雅黑;
+	}
+	.product_nav p a {
+		display: block;
+		cursor: pointer;
+
+	}
+	.product_nav p:nth-of-type(2) {
+		position: relative;
+		padding-right: 60px;
+		height: auto;
+	}
+	.product_nav p:nth-of-type(2)>span {
+		display: block;
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.product_nav p:nth-of-type(2) a {
+		display: block;
+		height: 30px;
+		cursor: pointer;
+	}
+	.product_nav p:nth-of-type(2)>a {
+		position: absolute;
+		top: 10px;
+		right: 5px;
+		width: 43px;
+		height: 24px;
+		font: 12px/24px 微软雅黑;
+		text-align: center;
+		border: 1px solid #000;
+		cursor:pointer;
+		-webkit-user-select:none;
+
+	}
+	.product_nav p:nth-of-type(2)>a:hover {
+		background-color: #1aaeb4;
+		color: #fff;
+		border: 1px solid #000;
+	}
+	.product_nav p a {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+		cursor: pointer;
+
+	}
+	.product_nav p span {
+		font: 18px/48px 微软雅黑;
+		color: #000;
+	}
+	.product_menu {
+		max-width: 767px;
+	}
+	.product_menu ul {
+		text-align: center;
+	}
+	.product_menu ul li {
+		float: left;
+		width: 40%;
+		margin: 10px 5%;
+		font: 16px/160% 微软雅黑;
+	}
+	.product_menu ul li img {
+		display: block;
+		border: 1px solid #ccc;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.product_menu ul li a {
+		font: 16px/160% 微软雅黑;
+		color: #000;
+	}
+	.product_menu_none{
+		height: 200px;
+		text-align:center;
+		line-height:200px;
+		color:#ccc;
+		display: none;
+	}
+}
